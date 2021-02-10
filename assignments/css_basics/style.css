@@ -1,0 +1,52 @@
+
+header {
+    background-color: mediumspringgreen;
+    width: 100%;
+    padding: 1em;
+    margin: 0 -1em;
+    margin-top: -1em;
+}
+
+h1 {
+    background-color: hotpink;
+    text-align: center;
+    margin: 0 -1em;
+    padding: 1%;
+}
+
+h2 {
+    background-color: orange;
+    text-align: center;
+    margin: 0 -1em;
+    padding: .5%;
+}
+
+section {
+    background-color:lemonchiffon;
+    font-family: sans-serif;
+    padding: 1px;
+}
+
+body {
+    background-color: lightpink;
+    margin: none;
+    padding: none;
+}
+
+p {
+    margin: 20px;
+    text-align: left;
+    font-family:sans-serif;
+}
+
+main {
+    background-color: lightskyblue;
+    margin: 1.5em;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+    padding: .5em;
+    margin: 0 -.5em;
+}
