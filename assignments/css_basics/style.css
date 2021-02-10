@@ -18,7 +18,13 @@ h2 {
     background-color: orange;
     text-align: center;
     margin: 0 -1em;
-    padding: .5%;
+    padding: 1%;
+}
+
+h4 {
+    background-color: lightpink;
+    padding: 5%;
+    margin-bottom: 0%;
 }
 
 section {
@@ -37,11 +43,13 @@ p {
     margin: 20px;
     text-align: left;
     font-family:sans-serif;
+    padding: .5%;
 }
 
 main {
     background-color: lightskyblue;
     margin: 1.5em;
+    padding-top: -20px;
 }
 
 footer {
