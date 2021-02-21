@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 200px;
+    color: cornflowerblue;
+    margin: 1em;
+}
+
+.absolute {
+    background: darkcyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.fixed {
+    background: darkmagenta;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}

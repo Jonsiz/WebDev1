@@ -1,0 +1,23 @@
+.subtitle {
+    background-color: darkorchid;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.cooltext {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: deeppink;
+}
+
+.greentext {
+    color: olivedrab;
+}
+
+#whatever {
+    width: 200px;
+    height: 200px;
+    background: oldlace;
+}
