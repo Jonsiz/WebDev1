@@ -7,6 +7,16 @@ header {
     margin-top: -1em;
 }
 
+nav {
+    font-size: 20px;
+    background-color: indigo;
+    text-align: center;
+}
+
+a {
+    color: mintcream;
+}
+
 h1 {
     background-color: hotpink;
     text-align: center;

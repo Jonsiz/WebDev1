@@ -6,6 +6,20 @@ body {
     background:seashell;
     padding: 2rem;
 }
+
+nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;

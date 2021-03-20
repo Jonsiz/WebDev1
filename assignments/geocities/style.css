@@ -9,6 +9,22 @@ h1 {
     margin: 5%;
 }
 
+nav {
+    text-align: justify;
+    margin: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+a {
+    color:limegreen;
+}
+
+a:hover {
+    color: violet;
+}
+
 p {
     color: yellow;
     text-align: justify;
