@@ -1,0 +1,31 @@
+.blackbarbox {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    border-radius: .5em;
+    padding:5px;
+}
+
+.loadingbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    animation-name: progress;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progress {
+    from {
+        width: 5px;
+        height: 90px;
+        background-color: red;
+        border-radius: inherit;
+    }
+
+    to {
+        width: 600px;
+        height: 90px;
+        background-color: green;
+        border-radius: inherit;
+    }
+}

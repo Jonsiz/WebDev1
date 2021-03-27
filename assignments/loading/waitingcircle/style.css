@@ -1,0 +1,64 @@
+a{
+    z-index: 1;
+}
+
+.big-spinning-cube {
+    z-index: -2;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5em;
+
+    transform: translate(-50%, -50%);
+
+    animation-name: bigspin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bigspin {
+    from{
+        background: purple;
+        transform: rotate(0);
+        transform: scale(0);
+    }
+
+    to {
+        background: yellow;
+        transform: rotate(180deg);
+        transform: scale(10);
+    }
+}
+
+.little-spinning-cube {
+
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5em;
+
+    transform: translate(-50%, -50%);
+
+    animation-name: littlespin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes littlespin {
+    from{
+        background: red;
+        transform: rotate(0);
+        transform: scale(0);
+    }
+
+    to {
+        background: white;
+        transform: rotate(2080deg);
+        transform: scale(30);
+    }
+}
