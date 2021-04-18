@@ -1,0 +1,45 @@
+* {
+    margin: 0; 
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color:floralwhite;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+
+    .grid-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.8rem;
+        height: 80vh;
+        padding: 2rem;
+    }
+
+    .grid-item {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .featured {
+        grid-column: 2 / 4;
+    }
+
+    .final {
+        grid-column: 2 / 6;
+    }
+}
