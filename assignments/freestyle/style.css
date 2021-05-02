@@ -1,0 +1,37 @@
+.BlackBack {
+    background-color: black;
+}
+.DONOT {
+    text-align: center;
+    font-size: 5em;
+}
+.WhiteText {
+    color: white;
+}
+
+.HiddenLink
+{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+}
+
+.simple {
+    background-color: blanchedalmond;
+}
+
+.nice-font {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nice-font2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+
+
+
