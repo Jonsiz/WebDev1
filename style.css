@@ -10,16 +10,6 @@ h1 {
     font-size: 4vmin;
 }
 
-h2 {
-    margin: 10px 0;
-    color: hotpink;
-    font-size: 3vmin;
-}
-
-h3 {
-    margin-top: 20px;
-}
-
 body {
     background-color:gainsboro;
     text-align: center;
