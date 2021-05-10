@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background:whitesmoke;
+}
+
 #center {
     text-align: center;
 }
@@ -48,5 +52,13 @@ nav a {
     
 .featured {
     grid-column: 1 / 4;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: violet;
 }
 
